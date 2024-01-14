@@ -1,6 +1,8 @@
+import css from "./Thead.module.css";
+
 export const Thead = () => {
   return (
-    <thead>
+    <thead className={css.thead}>
       <tr>
         <th>Type</th>
         <th>Amount</th>

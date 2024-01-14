@@ -29,7 +29,6 @@ ul {
   list-style: none;
 }
 
-td,
-thead {
+td {
   border: 1px solid grey;
 }

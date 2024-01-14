@@ -3,5 +3,13 @@
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
-  border: 1px solid #eeeeee;
+  border: 1px solid #0b0a0a;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #b6b6b6;
 }
