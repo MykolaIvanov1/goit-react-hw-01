@@ -1,9 +1,9 @@
-export const TbodyItems = ({ item }) => {
+export const TbodyItems = ({ item: { type, amount, currency } }) => {
   return (
     <>
-      <td>{item.type}</td>
-      <td>{item.amount}</td>
-      <td>{item.currency}</td>
+      <td>{type}</td>
+      <td>{amount}</td>
+      <td>{currency}</td>
     </>
   );
 };

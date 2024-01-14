@@ -1,0 +1,26 @@
+.description {
+  text-align: center;
+  padding: 20px;
+  width: 300px;
+  border: 1px solid #eeeeee;
+  border-radius: 20px;
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 1000px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.tag,
+.location {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(102, 94, 246, 0.87);
+}

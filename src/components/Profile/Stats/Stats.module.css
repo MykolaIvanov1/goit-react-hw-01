@@ -1,0 +1,22 @@
+.stats {
+  padding: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  border-radius: 20 px;
+}
+
+.item {
+  text-align: center;
+  padding: 20px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(160, 160, 160, 0.87);
+  border: 1 px solid #000000;
+}
+
+.label {
+  margin-bottom: 5px;
+  color: rgba(0, 0, 0, 0.87);
+}
